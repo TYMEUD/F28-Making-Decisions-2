@@ -51,14 +51,12 @@ let evensArr = []
 
 //Code Here
 
-// for( let i = 0; i < nums.length; i++)
-// console.log(nums[i])
-
-// nums.splice(1,1)
-
-//  evensArr.push(2)
-
-//  console.log(evensArr)
+// for( let i = 0; i < nums.length; i++){
+// if(nums[i] % 2 === 0){
+//   evensArr.push(nums[i])
+// }
+// }
+// console.log(evensArr)
 
 
 
@@ -113,6 +111,10 @@ let somenum = 24
 
 // if(myFavoriteNumbers.length < 7)
 // console.log('There are not enough elements in this array')
+// else if (myFavoriteNumbers > 7){
+//   myFavoriteNumbers = somenum [6]
+//   console.log(somenum)
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -168,9 +170,32 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-switch(letterGrade)
-case A:
-  letterGrade = "The student is doing excellently."
+// switch(letterGrade){
+//  case 'A':
+//   console.log('The studnt is doing excellently')
+// break;
+
+// case 'B' :
+//   console.log('The student is doing good')
+//   break;
+
+// case 'C' :
+//   console.log('The student is doing alright')
+//   break;
+
+//   case 'D' :
+//     console.log('The student is not doing very well')
+//     break;
+
+//     case 'F' :
+//       console.log('The student is failing')
+//       break;
+
+//       default :
+//       console.log('Not an eligible grade')
+
+// }
+
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
@@ -197,3 +222,13 @@ case A:
 */
 
 //Code Here
+
+// for(let i=0; i< 100; i++){
+//   if (i % 3 === 0 && i % 5 === 0)
+//   console.log('DevMountain')
+//   else if (i % 3 === 0)
+//   console.log('Dev')
+//   else if (i % 5 === 0)
+//   console.log('Mountain')
+//   else console.log(i)
+// }
